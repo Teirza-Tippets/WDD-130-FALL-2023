@@ -1,13 +1,60 @@
-.main-para {
-    font-size: 1.5em;
-    line-height: 1.5em;
+/* * {
+    border: 2px solid salmon;
+}*/
+
+img {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
 }
 
-#active {
-    background-color: rgb(255, 255, 255);
+main p {
+    width: 80%;
+    margin: 50px auto;
+    text-align: center;
+}
+
+/** p {
+    width: 80%;
+} **/
+nav {
+    text-align: center;
+}
+
+a:hover {
+    background-color: lightblue;
     color: steelblue;
 }
 
-.blue-text{
-    color:blue
+a:link, a:visited{
+    color:turquoise;
+    text-decoration: none;
 }
+
+a {
+    font-size: 1.5em;
+}
+
+
+/**nav{
+    height: 20vh;
+    border: 8px solid pink;
+}**/s
+
+h1 {
+    text-align: center;
+}
+
+footer p{
+    text-align: center;
+    font-size: 20px;
+    margin: 20px auto;
+}   
+
+nav, footer {
+    text-align: center;
+    background-color: steelblue;
+    color: white;
+    padding: 10px;
+}
+

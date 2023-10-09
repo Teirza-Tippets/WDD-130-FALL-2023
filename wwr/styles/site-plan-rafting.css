@@ -7,25 +7,25 @@ Fonts are separated by a & */
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #264653   ;
-  --secondary-color: #2A9D8F ;
-  --accent1-color: #F4A261;
-  --accent2-color: white;
+  --primary-color: #EEC8E0 ;
+  --secondary-color: #22162B ;
+  --accent1-color: #7CA5B8;
+  --accent2-color: #724E91;
 
   /* change the values below to your chosen font(s) */
   --heading-font: "Croissant One";
   --paragraph-font: Lato, Helvetica, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #2A9D8F;  /* headlines on a white background */ 
+  --headline-color-on-white: #22162B;  /* headlines on a white background */ 
   --headline-color-on-color: white; /* headlines on a colored background */ 
-  --paragraph-color-on-white: #2A9D8F; /* paragraph text on a white background */ 
+  --paragraph-color-on-white: #22162B; /* paragraph text on a white background */ 
   --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #2A9D8F  ;
-  --nav-link-color: #264653;
-  --nav-background-color: #F4A261;
-  --nav-hover-link-color: white;
-  --nav-hover-background-color: #2A9D8F;
+  --paragraph-background-color: #22162B  ;
+  --nav-link-color: #EEC8E0;
+  --nav-background-color: #7CA5B8;
+  --nav-hover-link-color: #FFF7AE;
+  --nav-hover-background-color: #EEC8E0;
 }
 
 
