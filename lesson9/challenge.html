@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 9 Challenge</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Anton&family=Croissant+One&family=Kanit&display=swap');
+
+        body{
+            background-color: black;
+            font-family: Kanit;
+            text-align: center;
+        }
+        .card{
+            max-width: 400px;
+            margin: 0 auto;
+            background-color: white;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        .card img{
+            width: 100%;
+        }
+        .stats{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            background-color: darkblue;
+            height: 100px;
+            align-content: center;
+        }
+
+        .stats div:nth-child(3){
+            border: none;
+        }
+
+        .stat{
+            color:aliceblue;
+            text-align: center;
+            border-right: 1px grey solid;
+        }
+
+        .stat p{
+            margin-block-start: 0;
+            margin-inline-end: 0;
+        }
+
+        .stat1{
+            font-size: 1.5rem;
+        }
+
+        .stat2{
+            font-size: 0.8rem;
+        }
+
+        .timing{
+            text-align: center;
+            color:darkcyan;
+        }
+
+        .heading{
+            text-align: center;
+            font-size: 2em;
+        }
+    </style>
+</head>
+<body>
+    <section class="card">
+        <img src="images/w09_ice_img.jpg" alt="cityscape">
+        <p class="timing">3 Weeks ago</p>
+        <p class="heading">Post Three</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem sit voluptate omnis laborum ipsa neque veniam nesciunt iure, 
+            officiis delectus voluptatum nemo, quidem sed quis voluptas repudiandae magnam. Ea, iste?</p>
+        <div class="stats">
+            <div class="stat">
+            <p class="stat1">5<sup>m</sup></p>
+            <p class="stat2">READ</p>
+            </div>
+            <div class="stat">
+                <p class="stat1">2031</p>
+                <p class="stat2">VIEWS</p>
+            </div>
+            <div class="stat">
+                <p class="stat1">15</p>
+                <p class="stat2">COMMENTS</p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
